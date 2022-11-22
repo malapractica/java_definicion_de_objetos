@@ -6,6 +6,7 @@ import java.util.Date;
 /**
  *
  * @author malapractica
+ * @date   2022-11-22
  */
 public class Main {
 
@@ -23,6 +24,7 @@ public class Main {
         persona.setPrimerApellido("Doe");
         persona.setEdad(34);
         persona.setFechaNacimiento(new Date());
+        
         //Llamamos al método toString().
         System.out.println(persona.toString());
     }

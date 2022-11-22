@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cl.malapractica.entidades;
 
 import java.util.Date;
@@ -13,6 +9,7 @@ import java.util.Date;
  */
 public class Persona {
     
+    //Definicion de atributos.
     private String dni;
     private String primerNombre;
     private String segundoNombre;
@@ -29,13 +26,13 @@ public class Persona {
 
     /**
      * Constructor con parámetros
-     * @param dni
-     * @param primerNombre
-     * @param segundoNombre
-     * @param primerApellido
-     * @param segundoApellido
-     * @param edad
-     * @param fechaNacimiento 
+     * @param String dni
+     * @param String primerNombre
+     * @param String segundoNombre
+     * @param String primerApellido
+     * @param String segundoApellido
+     * @param int edad
+     * @param java.util.Date fechaNacimiento 
      */
     public Persona(String dni, String primerNombre, String segundoNombre, String primerApellido, String segundoApellido, int edad, Date fechaNacimiento) {
         this.dni = dni;
@@ -145,7 +142,7 @@ public class Persona {
 
     /**
      * Método accesador del atributo fechaNacimiento
-     * @return Date fechaNacimiento
+     * @return java.util.Date fechaNacimiento
      */
     public Date getFechaNacimiento() {
         return fechaNacimiento;
@@ -153,7 +150,7 @@ public class Persona {
 
     /**
      * Método mutador del atributo fechaNacimiento
-     * @param Date fechaNacimiento 
+     * @param java.util.Date fechaNacimiento 
      */
     public void setFechaNacimiento(Date fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
